@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1.0" type="plugin" group="content">
+  <name>Content - TM AddThis</name>
+  <author>TM</author>
+  <creationDate>April 2013</creationDate>
+  <copyright>Copyright (C) 2012 All rights reserved.</copyright>
+  <license></license>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <version>1.0.6</version>
+  <description>AddThis content plugin</description>
+  <files>
+    <filename plugin="tmaddthis">tmaddthis.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">language/en-GB.plg_content_tmaddthis.ini</language>
+    <language tag="en-GB">language/en-GB.plg_content_tmaddthis.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="addthis_id" type="text" default="ra-4d89903e1583a34e" label="PLG_TMADDTHIS_PUBLIC_ID" description="PLG_TMADDTHIS_PUBLIC_ID_DESC"/>
+        <field name="google_plus" type="list" default="1" label="PLG_TMADDTHIS_GOOGLE_PLUS_LABEL" description="PLG_TMADDTHIS_GOOGLE_PLUS_DESC">
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>  
+        <field name="facebook_like" type="list" default="1" label="PLG_TMADDTHIS_FB_LIKE_LABEL" description="PLG_TMADDTHIS_FB_LIKE_DESC">
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>        
+        <field name="tweet" type="list" default="1" label="PLG_TMADDTHIS_TWEET_LABEL" description="PLG_TMADDTHIS_TWEET_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>        
+        <field name="pinterest" type="list" default="1" label="PLG_TMADDTHIS_PINTEREST_LABEL" description="PLG_TMADDTHIS_PINTEREST_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>        
+        <field name="linkedin" type="list" default="0" label="PLG_TMADDTHIS_LINKEDIN_LABEL" description="PLG_TMADDTHIS_LINKEDIN_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>
+        <field name="stumbleupon" type="list" default="0" label="PLG_TMADDTHIS_STUMBLEUPON_LABEL" description="PLG_TMADDTHIS_STUMBLEUPON_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>
+        <field name="foursquare" type="list" default="0" label="PLG_TMADDTHIS_FOURSQUARE_LABEL" description="PLG_TMADDTHIS_FOURSQUARE_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>
+        <field name="addthis_share" type="list" default="1" label="PLG_TMADDTHIS_ADDTHIS_SHARE_LABEL" description="PLG_TMADDTHIS_ADDTHIS_SHARE_DESC" >
+          <option value="0">PLG_TM_ADDTHIS_HIDE</option>
+          <option value="1">PLG_TM_ADDTHIS_SHOW</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>

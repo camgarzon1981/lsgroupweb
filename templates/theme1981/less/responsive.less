@@ -1,0 +1,425 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+
+/*== 1200px and beyond ===================================================
+========================================================================*/
+
+/* Large desktop */
+@media (min-width: 1200px) {} 
+
+/*== Up to 1200px =====================================================
+========================================================================*/
+
+/* Large desktop */
+@media (max-width: 1200px) {
+
+  #contact_map{
+    height: 376px;
+  }
+  .row-fluid {
+    margin-left: -@gridGutterWidth;
+    [class*="itemSpan"],[class*="span"] {
+      padding-left: @gridGutterWidth;
+    }
+  }
+  .fluid{
+    margin-left: -@gridGutterWidth;
+  }
+	
+  .locations .mod-custom{ padding-left:40px; padding-right:40px;}
+  
+  .navigation ul.sf-menu > li{ margin-left:26px;}
+  
+  .camera_wrap .camera_prev{ margin-left:0; left:auto; right:67px;}
+  .camera_wrap .camera_next{ margin-left:0; left:auto; right:20px;}
+  
+  .who_we_are .fleft{ margin-bottom:10px;}
+  
+  
+} 
+
+/*== Up to 980px ======================================================
+========================================================================*/
+
+/* Narrow desktop */
+@media (max-width: 979px) {
+  
+  .thumbnails {
+    margin-left: -12px;
+  }
+  .thumbnails > li {
+    margin-left: 12px;
+  }
+  
+  .locations .mod-custom{ padding-left:20px; padding-right:20px}
+  
+  .navigation ul.sf-menu > li{ margin-left:10px;}
+  .navigation ul.sf-menu > li.firstItem{ margin-left:0px;}
+  
+  .blocks .item .item_img{ float:none; width:auto}
+  .blocks .item_content{ float:none; width:auto; border:none;}
+  
+  .news .item_content{ padding-left:75px;}
+  
+  .social li{ margin:0 2px;}
+  .social a { width:34px; height:34px;
+		&:before{ line-height:36px;}  
+  }
+  
+  .leadership .item_content{ padding-left:8px; padding-right:8px;}
+  
+  .objectives .item_content{ padding-left:70px;}
+  
+
+  /*footer*/
+  #back-top{
+    display: none !important;
+  }
+
+  .row-fluid {
+    margin-left: -@gridGutterWidth768;
+    [class*="itemSpan"],[class*="span"] {
+      padding-left: @gridGutterWidth768;
+    }
+  }
+  .fluid{
+    margin-left: -@gridGutterWidth768;
+  }
+
+	
+	
+
+}
+
+/*== Up to 980px and beyond 768px ======================================
+========================================================================*/
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+
+}
+
+
+/*== Up to 767px ======================================================
+========================================================================*/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+
+  body{
+    padding: 0;
+    .row-container{
+      padding: 0 20px;
+    }
+	#showcase-row .row-container{ padding-left:0; padding-right:0;}
+	
+  }
+  
+  .navigation ul.sf-menu{ padding-top:0;}
+  
+  .locations .mod-custom{ margin-left:-20px; margin-right:-20px; margin-top:20px;}
+  
+  .hello{ margin-right:-20px;}
+  
+  .news .item_content{ min-height:90px; padding-bottom:20px;}
+  
+  .leadership .item_img{ float:left; margin-right:20px; margin-top:0; margin-bottom:20px;}
+  .leadership .item_content{ height:167px;.box-sizing(border-box);}
+  
+  .social{ margin-left:-20px; margin-right:-20px; padding-left:18px; padding-right:18px;}
+  
+    .camera_wrap .camera_prev, .camera_wrap .camera_next{ bottom:20px;}
+
+  // Stick to bottom footer styles
+  #wrapper{
+    margin: 0;
+  }
+
+  #footer-wrapper{
+    height: auto;
+  }
+
+  #push{
+    display: none;
+  }
+
+  #logo{
+    text-align: center;
+    a{
+      margin: 0;
+    }
+  }
+
+  .nav.menu.pull-right.nav-pills{
+    float: none;
+    text-align: center;
+    li{
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  .social{
+    text-align: left;
+  }
+
+
+  /*content*/
+
+    [class*="cols"]{
+      [class*="span"]{
+        width: 100%;
+      }
+    }
+
+  .item-image.blog-image{
+    float: none;
+    margin: 0 0 20px 0;
+  }
+
+  .row-fluid {
+    [class*="itemSpan"],
+    [class*="span"] {
+      display: block;
+      float: none;
+      margin-left: 0;
+      width: auto;
+    }
+  }
+
+  /*gallery*/
+  .page-gallery{
+    ul.gallery{
+      .gallery-grid{
+        width: 48.5%;
+        max-width: 48.5%;
+      }
+    }
+  }
+
+  .page-gallery ul.gallery .gallery-grid .view .item_img{
+    max-width: 100%;
+    a{
+      display: block;
+    }
+  }
+
+  .img-full__left.span5{
+    width: 50%;
+  }
+
+  /*contact*/
+  .contact_details{
+    .contact_details_item{
+      width: 30%;
+      float: left;
+    }
+  }
+
+  .page-gallery ul.gallery .gallery-grid .view{
+    margin: 0 auto;
+    .item_img{
+      float: none;
+      margin: 0 !important;
+    }
+  }
+
+  /*Modules*/
+
+  /*search*/
+  .mod-search__aside{
+    .mod-search_searchword{
+      width: 50%;
+    }
+  }
+
+  /*login*/
+  .mod-login__aside{
+    .mod-login_username,
+    .mod-login_passwd{
+      width: 50%;
+    }
+  }
+
+  #back-top{
+    display:none !important;
+  }
+
+}
+
+/*== Up to 640px ==================================================
+====================================================================*/
+
+@media (max-width: 640px) {
+
+  /*contact*/
+
+  .contact_details{
+    margin-bottom: @baseLineHeight;
+    .contact_details_item{
+      width: 100%;
+      float: none;
+    }
+  }
+
+  .layout-mode{
+    float: none;
+  }
+
+
+}
+
+/*== Up to 480px ==================================================
+====================================================================*/
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+
+	.who_we_are .fleft{ float:none; margin:0 0 20px 0}
+
+	.leadership .item_img{ float:none; margin:0;}
+	.leadership .item_content{ height:auto; width:252px; margin-bottom:20px;}
+	
+	h1, h2, h3{ font-size:28px;}
+
+  /*contact*/
+
+  .contact_form{
+    width: 100%;
+  }
+
+  /*registration*/
+
+  .page-registration,
+  .page-remind,
+  .page-reset,
+  .page-login,
+  .page-login,
+  .page-profile__edit{
+    form{
+      input, select{
+        width: 100%;
+      }
+      label{
+        display: inline-block;
+      }
+    }
+  }
+
+  /* pagination */
+
+  .pagination{
+    ul{
+      li{
+        display: none;
+        &.pagination-prev,
+        &.pagination-next{
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  /*gallery*/
+
+  .page-gallery{
+    .item_img.img-intro{
+      float: none;
+      margin: 0 0 @baseLineHeight 0;
+    }
+    ul.gallery{
+      .gallery-item{
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        .item_img{
+          float: none;
+          margin: 0 auto @baseLineHeight !important;
+          max-width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+        a.zoom{
+          display: block;
+        }
+      }
+    }
+  }
+
+  .img-full__left.span5{
+    width: 100%;
+    margin-right:0;
+  }
+
+  /*blog*/
+
+  .item_img{
+    float: none;
+     margin: 0 0 @baseLineHeight 0;
+     max-width: 100%;
+  }
+
+  /*archive*/
+
+  .page-archive_filters{
+    select{
+      display: block;
+      width: 100%;
+    }
+  }
+
+  /*contact*/
+
+  .contact_details{
+    .contact_details_item{
+      width: 100%;
+      float: none;
+    }
+  }
+
+  /*Modules*/
+
+  /*search*/
+
+  .mod-search__aside{
+    .mod-search_searchword{
+      width: 100%;
+    }
+  }
+
+  /*login*/
+
+  .mod-login__aside{
+    .mod-login_userdata{
+      width: 100%;
+      overflow: hidden;
+    }
+    .mod-login_username,
+    .mod-login_passwd{
+      width: 100%;
+    }
+  }
+
+  div.modal{
+    position:absolute;
+  }
+  #error{
+    input{
+      width: 200px;
+    }
+  }
+}
+
+/*== Up to 400px =====================================================
+========================================================================*/
+
+/* Portrait phones */
+@media (max-width: 400px) {
+
+  
+}

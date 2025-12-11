@@ -1,0 +1,42 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+html,body{
+  min-width:1156px;
+}
+
+#section-kmt{
+  .kmt-form-content{
+    .kmt-form-addon{
+      > div{
+        .input.kmt-location{
+          max-width: 1000px !important;
+        }
+      }
+    }
+  }
+}
+
+.gallery-item.gallery-grid .view{
+  .mask,
+  .content{
+    display: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;
+  }
+  &:hover{
+  	.mask,
+    .content{
+    	display: block;
+  	}
+  }
+}
+
+.camera_prev > span, .camera_next > span, .camera_commands > span{ display:none;}
+.camera_prev:hover > span, .camera_next:hover > span, .camera_commands:hover > span{ display:block;}
+
+#logo{ padding-bottom:0px;}
+
+.gallery-grid .view .mask .mask_wrap .mask_cont, .gallery-grid .view .content .mask_wrap .mask_cont{ 
+	> div{width:317px}
+}

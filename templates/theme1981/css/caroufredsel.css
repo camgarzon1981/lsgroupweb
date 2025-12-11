@@ -1,0 +1,129 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mod_caroufredsel {
+  overflow: hidden;
+}
+.caroufredsel_wrapper {
+  cursor: auto !important;
+}
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0 0 0 -36px;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list_carousel ul li {
+  padding: 0 0 0 36px;
+  margin: 0;
+  display: block;
+  float: left;
+}
+@media (max-width: 1200px) {
+  .list_carousel {
+    margin: 0 0 0 -20px;
+  }
+  .list_carousel ul li {
+    padding: 0 0 0 20px;
+  }
+}
+@media (max-width: 979px) {
+  .list_carousel {
+    margin: 0 0 0 -12px;
+  }
+  .list_carousel ul li {
+    padding: 0 0 0 12px;
+  }
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*Navigation*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  height: 41px;
+  width: 41px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  border-radius: 38px;
+  font: 26px FontAwesome;
+  margin: 0 0 0 0;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.caroufredsel_prev:hover,
+.caroufredsel_next:hover {
+  background: #fff;
+  color: #e17329;
+}
+.caroufredsel_prev:before,
+.caroufredsel_next:before {
+  text-align: center;
+  display: block;
+  line-height: 41px;
+}
+.caroufredsel_prev span,
+.caroufredsel_next span {
+  display: none;
+}
+.caroufredsel_prev {
+  margin-left: -34px;
+}
+.caroufredsel_prev:before {
+  content: "\f104";
+  padding-right: 4px;
+}
+.caroufredsel_next {
+  margin-left: 20px;
+}
+.caroufredsel_next:before {
+  content: "\f105";
+  padding-left: 5px;
+}
+/*Pagination*/
+.caroufredsel_pagination {
+  text-align: center;
+}
+.caroufredsel_pagination a {
+  display: inline-block;
+  padding: 0 0.5em;
+}

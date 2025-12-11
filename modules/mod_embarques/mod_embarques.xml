@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+ <name>mod_embarques</name>
+ <author>Camilo Garzon</author>
+ <creationDate>Marzo 2017</creationDate>
+ <copyright>Copyright (C) 2017. All rights reserved.</copyright>
+ <license>Private; see LICENSE.txt</license>
+ <authorEmail>camilo.garzon@seft.net</authorEmail>
+ <authorUrl>www.seft.net</authorUrl>
+ <version>1.0.0</version>
+ <description>Seguimiento de embarques</description>
+ <files>
+ <filename module="mod_embarques">mod_embarques.php</filename>
+ <folder>tmpl</folder>
+ <filename>helper.php</filename>
+ <filename>index.php</filename>
+ <fiename>mod_embarques.xml</fiename>
+ </files>
+ <languages>
+ <language tag="en-GB">en-GB.mod_embarques.ini</language>
+ <language tag="en-GB">en-GB.mod_embarques.sys.ini</language>
+ </languages>
+ <config>
+ <fields name="params">
+ <fieldset name="basic">
+ <field
+ name="view"
+ type="list"
+ published=""
+ label="View"
+ required="true"
+ description="View to present to the user"
+ >
+<option value="">Please Select</option>
+  <option value="Clientes">Administrador de clientes</option>
+  <option value="Operaciones">Embarques operaciones</option>
+  <option value="Usuario">Embarques cliente</option>
+</field>
+ </fieldset>
+ </fields>
+ </config>
+ </extension>

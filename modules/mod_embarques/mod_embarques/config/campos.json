@@ -1,0 +1,612 @@
+[
+	{
+		"id": "1",
+		"nombre": "exportador",
+		"etiqueta": "Exportador",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "1",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "2",
+		"nombre": "importador",
+		"etiqueta": "Importador",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "2",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "3",
+		"nombre": "asesor",
+		"etiqueta": "Asesor",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "3",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "4",
+		"nombre": "via",
+		"etiqueta": "Via",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "4",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "5",
+		"nombre": "do_ls",
+		"etiqueta": "DO",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "5",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "6",
+		"nombre": "referencia_cliente1",
+		"etiqueta": "Referencia Cliente 1",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "6",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "7",
+		"nombre": "referencia_cliente2",
+		"etiqueta": "Referencia Cliente 2",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "7",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "8",
+		"nombre": "lc",
+		"etiqueta": "LC",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "8",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "9",
+		"nombre": "fecha_estimada_entrega",
+		"etiqueta": "Fecha Estimada Entrega",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "9",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "10",
+		"nombre": "fecha_entrega_proveedor",
+		"etiqueta": "Fecha Enrega Proveedor",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "10",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "11",
+		"nombre": "pickup",
+		"etiqueta": "Pickup",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "11",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "12",
+		"nombre": "mawb",
+		"etiqueta": "MAWB\/AWB",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "12",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "13",
+		"nombre": "hawb",
+		"etiqueta": "HAWB",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "13",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "14",
+		"nombre": "fecha_radicacion_bls",
+		"etiqueta": "Fecha Radicacion BLS",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "14",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "15",
+		"nombre": "fletes",
+		"etiqueta": "Fletes",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "15",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "16",
+		"nombre": "origen",
+		"etiqueta": "Origen",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "16",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "17",
+		"nombre": "puerto_embarque",
+		"etiqueta": "Puerto de Embarque",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "17",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "18",
+		"nombre": "destino_final",
+		"etiqueta": "Destino Final",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "18",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "19",
+		"nombre": "vapor",
+		"etiqueta": "Vapor",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "19",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "20",
+		"nombre": "viaje",
+		"etiqueta": "Viaje",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "20",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "21",
+		"nombre": "naviera",
+		"etiqueta": "Naviera\/Aerolina",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "21",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "22",
+		"nombre": "cantidad",
+		"etiqueta": "Cantidad",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "22",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "23",
+		"nombre": "tipo_contenedor",
+		"etiqueta": "Tipo de Contenedor",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "23",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "24",
+		"nombre": "cutoff",
+		"etiqueta": "CutOff",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "24",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "25",
+		"nombre": "etd",
+		"etiqueta": "ETD",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "25",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "26",
+		"nombre": "eta",
+		"etiqueta": "ETA",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "26",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "27",
+		"nombre": "ata",
+		"etiqueta": "ATA",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "27",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "28",
+		"nombre": "desconsolidacion",
+		"etiqueta": "Desconsolidacion",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "28",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "29",
+		"nombre": "inspeccion",
+		"etiqueta": "Inspeccion",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "29",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "30",
+		"nombre": "ingreso_deposito",
+		"etiqueta": "Ingreso a Deposito",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "30",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "31",
+		"nombre": "facturar_a",
+		"etiqueta": "Facturar a",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "31",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "32",
+		"nombre": "entrega_documentos_a",
+		"etiqueta": "Entrega Documentos a",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "32",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "33",
+		"nombre": "fecha_dec_importacion",
+		"etiqueta": "Fecha DEC Importacion",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "33",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "34",
+		"nombre": "pago_tributos",
+		"etiqueta": "Pago de tributos",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "34",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "35",
+		"nombre": "levante",
+		"etiqueta": "Levante",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "35",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "36",
+		"nombre": "entrega_cliente",
+		"etiqueta": "Entrega cliente",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "36",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "37",
+		"nombre": "observaciones",
+		"etiqueta": "Observaciones",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "37",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "38",
+		"nombre": "ingreso_agente",
+		"etiqueta": "Ingreso agente",
+		"tipo": "Fecha",
+		"obligatorio": null,
+		"orden": "38",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "39",
+		"nombre": "pais",
+		"etiqueta": "Pais",
+		"tipo": "Texto",
+		"obligatorio": null,
+		"orden": "39",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "40",
+		"nombre": "estado",
+		"etiqueta": "Estado",
+		"tipo": "Lista",
+		"obligatorio": null,
+		"orden": "40",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "41",
+		"nombre": "tipo",
+		"etiqueta": "Tipo",
+		"tipo": "Lista",
+		"obligatorio": null,
+		"orden": "41",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "76",
+		"nombre": "fecha_notificacion",
+		"etiqueta": "Fecha notificacion",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "42",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "77",
+		"nombre": "fecha_instruccion",
+		"etiqueta": "Fecha instruccion",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "43",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "78",
+		"nombre": "factura",
+		"etiqueta": "Factura",
+		"tipo": "Texto",
+		"obligatorio": "",
+		"orden": "44",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "81",
+		"nombre": "envio_borrador_bl_awb",
+		"etiqueta": "Envio borrador BL\/AWB",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "45",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "82",
+		"nombre": "aprobacion_bl_awb",
+		"etiqueta": "Aprobacion BL\/AWB",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "46",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "83",
+		"nombre": "envio_prealerta",
+		"etiqueta": "Envio prealerta",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "47",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "84",
+		"nombre": "radicacion_factura",
+		"etiqueta": "Radicacion factura",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "48",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "85",
+		"nombre": "entrega_documentos",
+		"etiqueta": "Entrega documentos",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "49",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "86",
+		"nombre": "cotizacion",
+		"etiqueta": "Cotizacion",
+		"tipo": "Texto",
+		"obligatorio": "",
+		"orden": "50",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "88",
+		"nombre": "Preinspeccion",
+		"etiqueta": "Preinspeccion",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "51",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "89",
+		"nombre": "Presentacion_Declaracion",
+		"etiqueta": "Presentacion de Declaracion",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "52",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "90",
+		"nombre": "Solicitud_Levante",
+		"etiqueta": "Solicitud de Levante",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "53",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "91",
+		"nombre": "Insp_Fisica_DIAN",
+		"etiqueta": "Insp Fisica DIAN",
+		"tipo": "Texto",
+		"obligatorio": "",
+		"orden": "54",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "92",
+		"nombre": "Recibo_Documentos_ITR",
+		"etiqueta": "Recibo Documentos ITR",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "55",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "93",
+		"nombre": "Asignacion_Cita_Cargue",
+		"etiqueta": "Asignacion Cita Cargue",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "56",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "94",
+		"nombre": "Cargue_a_Camion",
+		"etiqueta": "Cargue a Camion",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "57",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "95",
+		"nombre": "Descargue_Obra",
+		"etiqueta": "Descargue en Obra",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "58",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "96",
+		"nombre": "Devolucion_Vacio",
+		"etiqueta": "Devolucion de Vacio",
+		"tipo": "Fecha",
+		"obligatorio": "",
+		"orden": "59",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "97",
+		"nombre": "Operativo",
+		"etiqueta": "Operativo",
+		"tipo": "Texto",
+		"obligatorio": "",
+		"orden": "60",
+		"contenido": null,
+		"tipo_contenido": null
+	},
+	{
+		"id": "98",
+		"nombre": "Comercial",
+		"etiqueta": "Comercial",
+		"tipo": "Texto",
+		"obligatorio": "",
+		"orden": "61",
+		"contenido": null,
+		"tipo_contenido": null
+	}
+]

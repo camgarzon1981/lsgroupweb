@@ -1,0 +1,60 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-width: 1156px;
+}
+#section-kmt .kmt-form-content .kmt-form-addon > div .input.kmt-location {
+  max-width: 1000px !important;
+}
+.gallery-item.gallery-grid .view .mask,
+.gallery-item.gallery-grid .view .content {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;
+}
+.gallery-item.gallery-grid .view:hover .mask,
+.gallery-item.gallery-grid .view:hover .content {
+  display: block;
+}
+.camera_prev > span,
+.camera_next > span,
+.camera_commands > span {
+  display: none;
+}
+.camera_prev:hover > span,
+.camera_next:hover > span,
+.camera_commands:hover > span {
+  display: block;
+}
+#logo {
+  padding-bottom: 0px;
+}
+.gallery-grid .view .mask .mask_wrap .mask_cont > div,
+.gallery-grid .view .content .mask_wrap .mask_cont > div {
+  width: 317px;
+}

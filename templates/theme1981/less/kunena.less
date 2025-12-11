@@ -1,0 +1,172 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+#Kunena{ margin-bottom:20px;}
+#Kunena {
+	table,
+	tr,
+	td,
+	th,
+	div,
+	fieldset,
+	span,
+	li,
+	dt,
+	legend{
+		border-color: @tableBorder !important;
+	}
+	legend{
+		color: inherit;
+	}
+	table{
+		background: @tableBackground;
+	}
+	tr{
+		.transition(background 0.5s);
+		&:hover{
+			background: @tableBackgroundHover;
+		}
+		&:nth-child(odd){
+			background: @tableBackgroundAccent;
+		}
+		&:hover{
+			background: @tableBackgroundHover !important;
+		}
+	}
+	tr,
+	td{
+		border-bottom: 1px solid;
+	}
+	dt{
+		font-weight: normal;
+	}
+	select,
+	button{
+		margin-bottom: 9px;
+	}
+	a.close,a.open{
+		background-color: @tableBorder;
+		.opacity(100);
+		cursor: pointer;
+		.transition(background-color 0.5s);
+		&:hover{
+			background-color: darken(@tableBorder, 10%);
+		}
+	}
+	#ktab li{
+		.transition(all 0.5s);
+		margin-bottom: -1px !important;
+		border:1px solid;
+		.border-radius(@baseBorderRadius @baseBorderRadius 0 0);
+		background: lighten(@tableBorder, 10%);
+		&#current,&:hover{
+			background: #fff;
+			border-bottom-color: #fff !important;
+		}
+	}
+	.kunena_body{
+		background: #fff;
+		padding: 8px;
+		border:1px solid @tableBorder;
+		.border-radius(0 @baseBorderRadius @baseBorderRadius);
+	}
+	.kforum-pathway .path-element{
+		position: relative;
+		&:before{
+			position:absolute;
+			left: 1px;
+			top: 50%;
+			border-left:4px solid darken(@tableBorder, 20%);
+			border-top: 4px solid transparent;
+			border-bottom: 4px solid transparent;
+			content: '';
+			margin-top: -4px;
+		}
+	}
+	form{
+		margin: 0px;
+		&.kuena_form{
+			margin: 8px;
+		}
+	}
+	.kicon-button span span{
+		color: #fff;
+	}
+	div.kmessage-editmarkup-cover{
+		border: none;
+	}
+
+	.kwho-admin,
+	a.kwho-admin {
+	    color: #f00 !important;
+	}
+	a.kwho-admin:hover,
+	a.kwho-globalmoderator:hover,
+	a.kwho-moderator:hover,
+	a.kwho-banned:hover,
+	a.kwho-user:hover,
+	a.kwho-guest:hover{
+		text-decoration: underline !important;
+	}
+	.kwho-globalmoderator,
+	a.kwho-globalmoderator{
+		color: #800000 !important;
+	}
+	.kwho-moderator,
+	a.kwho-moderator {
+	    color: #00f !important;
+	}
+	.kwho-banned,
+	a.kwho-banned {
+	    color: #A39D49 !important;
+	}	
+	.kwho-user,
+	a.kwho-user {
+	    color: #5388B4 !important;
+	}
+	.kwho-guest,
+	a.kwho-guest{
+		color: #666 !important;
+	}
+	label{
+		display: inline;
+	}
+	.kblock div.kheader{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	div.input,
+	span.input,	
+	td.input{
+		padding: 10px 0 5px;
+		display: inline-block;
+		max-width: 100%;
+		input{
+			margin-right: 5px;
+		}
+		span{
+			display: block;
+			padding: 10px 0 0;
+			white-space: nowrap;
+			label{
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+		button{
+			float: right;
+			margin-right: 5px;
+		}
+		}
+	}
+	.klink-block{
+		span{
+			padding: 0 5px 0 0;
+			&.kprofilebox-register{
+				display: block;
+				padding: 5px 0 0;
+			}
+		}
+	}
+} 
+#Kunena .kprofilebox .kprofilebox-left, #Kunena .kprofilebox .kprofilebox-right{.box-sizing(content-box);}
