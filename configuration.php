@@ -14,11 +14,11 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'lsupplierjoomla';
-	public $password = '9559fi~Hv';
+	public $password = 
 	public $db = 'lsupplier_joomla';
 	public $dbprefix = 'jos_';
 	public $live_site = '';
-	public $secret = '0pi84eMxr7wK1xPQ';
+	public $secret = 
 	public $gzip = '1';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -36,7 +36,7 @@ class JConfig {
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
 	public $smtpuser = 'lsgroup@lsupplier.com';
-	public $smtppass = 'rakq grhd yrwy xdix';
+	public $smtppass = 
 	public $smtphost = 'smtp.gmail.com';
 	public $smtpsecure = 'ssl';
 	public $smtpport = '465';
